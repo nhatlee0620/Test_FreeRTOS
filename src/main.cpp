@@ -124,7 +124,7 @@ void setup() {
                 "Displaydata", // Task name
                 150,  // Stack size
                 NULL, //Task parameters
-                0, // Priority
+                2, // Priority
                 NULL); //task handle
     // Create task that publish data in the queue if it was created.
     xTaskCreate(TaskReadPin0, // Task function
